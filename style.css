@@ -1,0 +1,155 @@
+* {
+    /* This parameter keeps padding withing that box */
+    box-sizing: border-box; 
+}
+
+body {
+    border: 10px;
+    border-color: lightsteelblue;
+    padding: 0 10px;
+    overflow: scroll;
+    color: black;
+    background-color: rgb(206, 231, 240);
+}
+
+body > div > img {
+    width: 1500px;
+    height: 2000px;
+    /* justify-content: right; */
+    display: flex;
+    justify-content: flex-end;
+    /* position: relative; */
+}
+
+.first {
+    color: white;
+    /* display: flex; */
+    
+    width: 1500px;
+    height: 2000px;
+    position: relative;
+    /* justify-content: right; */
+    /* /* display: flex; */
+    background-image: "./images/highRes.jpg";
+    background-position: center;
+    padding-top: 120px;
+    /* border-color: white;
+    border-style: solid; */
+}
+
+
+header {
+    height: 100px;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+    background: rgb(248, 247, 244);
+    position: fixed;
+    z-index: 1;
+}
+
+.first h1 {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+.first h4 {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 300px;
+}
+
+.first button {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 22px;
+}
+
+.Logo-holder {
+    display: flex;
+    align-items: center;
+    /* background: orange; */
+    width: 15%;
+    margin-left: 1%;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.navigation {
+    display: flex;
+    /* background: blue; */
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.navigation > a {
+    text-decoration: none;
+}
+
+.navigation > h3 {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    margin-right: 2.5%;
+}
+
+/* #owl {
+    height: 50px;
+    width: 50px;
+} */
+
+div {
+    /* display: flex;
+    justify-content: left;
+    align-items: stretch;
+    width: 100px;
+    font-family:  */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+nav > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sub1 {
+    background-color: blue;
+    color: white;
+    border-radius: 22px;
+    height: 45px;
+    width: 50%;
+}
+
+.in {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: auto;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
